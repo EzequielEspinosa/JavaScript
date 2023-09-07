@@ -44,12 +44,6 @@ class Instrumentos{
 
 let listaInstrumento = [];
 
-listaInstrumento.push(new Instrumentos("flauta", 15000, 3));
-listaInstrumento.push(new Instrumentos("guitarra", 35000, 5));
-listaInstrumento.push(new Instrumentos("bajo", 40000, 2));
-listaInstrumento.push(new Instrumentos("piano", 65000, 1));
-
-/*
 for(let i=0; i < 4; i = i + 1){
 
     let nombre = prompt("Ingrese el nombre del instrumento");
@@ -62,7 +56,8 @@ for(let i=0; i < 4; i = i + 1){
     console.log(listaInstrumento);
 
 }
-*/
+
+
 //Inicio Render
 for(let producto of listaInstrumento){
 
